@@ -1,0 +1,475 @@
+body {
+	overflow: hidden;
+	
+}
+
+.grain {
+	background-image: url(http://api.thumbr.it/whitenoise-2000x2000.png?background=fffaf000&noise=c2aa90&density=50&opacity=35);
+	height: 2000px;
+	width: 2000px;
+	z-index: 900;
+	position: absolute;
+	pointer-events: none;
+}
+
+.achtergrond {
+	background-image: url(VerhaalElementenMayorsHouse/MayorInterior.png);
+	height: 640px;
+	max-height: 100%;
+	width: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	overflow: hidden;
+	z-index: -100;
+	border-width: 3px;	
+}
+
+.kat {
+	background-image: url(KlikbareElementenMayorsHouse/kat1.png);
+	height: 200px;
+	width: 100px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	z-index: 2;
+}
+
+.kat2 {
+	background-image: url(KlikbareElementenMayorsHouse/kat2.png);
+	height: 200px;
+	width: 100px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	z-index: 2;
+	filter: drop-shadow(0px 0px 50px yellow);
+}
+
+.gingerbread {
+	background-image: url(KlikbareElementenMayorsHouse/Gingerbread1.png);
+	height: 200px;
+	width: 100px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	bottom: 5%;
+	left: 35%;
+	z-index: 2;
+}
+
+.gingerbread2 {
+	background-image: url(KlikbareElementenMayorsHouse/Gingerbread2.png);
+	height: 200px;
+	width: 100px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	bottom: 5%;
+	left: 35%;
+	z-index: 2;
+	filter: drop-shadow(0px 0px 50px yellow);
+}
+
+.terugpijl {
+	background-image: url(VerhaalElementenMayorsHouse/Pijlterug.png);
+	height: 100px;
+	width: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	z-index: 2;
+	bottom: 0%;
+	left: 40%;
+}
+
+.heenpijl {
+	background-image: url(VerhaalElementenMayorsHouse/Pijlvoor.png);
+	height: 100px;
+	width: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	z-index: 2;
+	bottom: 0%;
+	left: 55%;
+}
+
+.DT1 {
+	background-image: url(VerhaalElementenMayorsHouse/DT1.png);
+	height: 550px;
+	width: 400px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	bottom: 5%;
+	left: 18%;
+}
+
+.Bird1 {
+	background-image: url(VerhaalElementenMayorsHouse/Bird1.png);
+	height: 300px;
+	width: 200px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 5%;
+	left: 35%;
+}
+
+.Narrator1 {
+	background-image: url(VerhaalElementenMayorsHouse/Narrator1.png);
+	height: 600px;
+	width: 500px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 0%;
+	left: 21%;
+	animation: 3s ease-out 0s 1 slideInFromTop;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.Text1 {
+	background-image: url(VerhaalElementenMayorsHouse/Text1.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 20%;
+	left: 23%;
+	animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mayor {
+	background-image: url(KlikbareElementenMayorsHouse/Mayor1.png);
+	height: 500px;
+	width: 400px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	bottom: -15%;
+	right: 22%;
+}
+
+.mayor2 {
+	background-image: url(KlikbareElementenMayorsHouse/Mayor2.png);
+	height: 500px;
+	width: 400px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	bottom: -15%;
+	right: 22%;
+	filter: drop-shadow(0px 0px 50px lightgreen);
+}
+
+.Husband1 {
+	background-image: url(VerhaalElementenMayorsHouse/Husband1.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	bottom: 27%;
+	right: 37%;
+}
+
+.facevase {
+	background-image: url(KlikbareElementenMayorsHouse/facevase1.png);
+	height: 150px;
+	width: 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 30%;
+	right: 50%;
+	transition: all 1s;
+	z-index: 1;
+}
+
+.facevase2 {
+	background-image: url(KlikbareElementenMayorsHouse/facevase2.png);
+	height: 150px;
+	width: 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 30%;
+	right: 50%;
+	transition: all 1s;
+	z-index: 1;
+	filter: drop-shadow(0px 0px 50px yellow);
+}
+
+.salvatogre {
+	background-image: url(KlikbareElementenMayorsHouse/salvatogre1.png);
+	height: 200px;
+	width: 300px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	right: 20%;
+	top: 2%;
+
+}
+
+.salvatogre2 {
+	background-image: url(KlikbareElementenMayorsHouse/salvatogre2.png);
+	height: 200px;
+	width: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	right: 20%;
+	top: 2%;
+	filter: drop-shadow(0px 0px 50px yellow);
+}
+
+.shoe {
+	background-image: url(KlikbareElementenMayorsHouse/shoe1.png);
+	height: 85px;
+	width: 300px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s;
+	position: absolute;
+	right: 10%;
+	bottom: 45%;
+}
+
+.shoe2 {
+	background-image: url(KlikbareElementenMayorsHouse/shoe2.png);
+	height: 85px;
+	width: 300px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s;
+	position: absolute;
+	right: 10%;
+	bottom: 45%;
+	filter: drop-shadow(0px 0px 50px yellow);
+}
+
+.huis {
+	background-image: url(Afbeeldingen/House1.png);
+	height: 400px;
+	width: 300px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.huis2 {
+	background-image: url(Afbeeldingen/House2.png);
+	height: 400px;
+	width: 300px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+/* tweede pagina */
+.Narrator2 {
+	background-image: url(VerhaalElementenMayorsHouse/Narrator2.png);
+	height: 600px;
+	width: 500px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: -34%;
+	left: 0%;
+	animation: 3s ease-out 0s 1 slideInFromTop;
+}
+
+.Text2 {
+	background-image: url(VerhaalElementenMayorsHouse/Text2.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	z-index: 0,5;
+	animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.DT2 {
+	background-image: url(VerhaalElementenMayorsHouse/DT2.png);
+	height: 550px;
+	width: 400px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 15%;
+	left: -5%;
+}
+
+.Husband2 {
+	background-image: url(VerhaalElementenMayorsHouse/Husband2.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 15%;
+	left: 23%;
+}
+
+.Bird2 {
+	background-image: url(VerhaalElementenMayorsHouse/Bird2.png);
+	height: 300px;
+	width: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: -5%;
+	left: 15%;
+}
+
+/* derde pagina */
+.Text3 {
+	background-image: url(VerhaalElementenMayorsHouse/Text3.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 0%;
+	left: 2%;
+	animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.DT3 {
+	background-image: url(VerhaalElementenMayorsHouse/DT3.png);
+	height: 550px;
+	width: 400px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 15%;
+	left: -5%;
+}
+
+.Husband3 {
+	background-image: url(VerhaalElementenMayorsHouse/Husband3.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 15%;
+	left: 23%;
+}
+
+.Bird3 {
+	background-image: url(VerhaalElementenMayorsHouse/Bird3.png);
+	height: 300px;
+	width: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: -5%;
+	left: 15%;
+}
+
+/* vierde pagina */
+.Text4 {
+	background-image: url(VerhaalElementenMayorsHouse/Text4.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: -15%;
+	left: 24%;
+	animation: 3s ease-out 0s 1 slideInFromBottom;
+}
+
+.DT4 {
+	background-image: url(VerhaalElementenMayorsHouse/DT4.png);
+	height: 550px;
+	width: 400px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 15%;
+	left: -5%;
+}
+
+.Husband4 {
+	background-image: url(VerhaalElementenMayorsHouse/Husband4.png);
+	height: 350px;
+	width: 275px;
+	background-size: contain;
+    background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: 15%;
+	left: 23%;
+}
+
+.Bird4 {
+	background-image: url(VerhaalElementenMayorsHouse/Bird4.png);
+	height: 300px;
+	width: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 1s;
+	position: absolute;
+	top: -5%;
+	left: 15%;
+}
+
+
